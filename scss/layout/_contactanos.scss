@@ -1,0 +1,43 @@
+.nav-link-inicio {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.titulo2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+.redes {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-right: 50px;
+    .insta {
+        background-color: yellow;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .face {
+        background-color: yellow;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .número {
+        color: black;
+        background-color: yellow;
+        padding: 10px;
+        border-radius: 30px;
+    }
+}
+
