@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 37, 37) !important;
+}
+
+.navbar-nav {
+    display: inline;
+    text-align: center;
+    
+}
+.navbar-personal {
+    display: flex;
+    background-color: rgb(207, 37, 37) !important;
+    justify-content: space-around !important;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;;
+    padding-left: 100px;
+    padding: 0px 40px 0px 40px;
+
+}
+.navbar-brand {
+    padding-right: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nav-link-contac{
+    color: black;
+    text-decoration: none;
+    padding: 100px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.nav-link-nosotros{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.nav-link-ubi{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+/* CAROUSEL */
+.carousel-inner {
+    border: 1px solid yellow;
+    width: 800px;
+    height: 700px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* CONTACTANOS*/
+
+.nav-link-inicio {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.titulo2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.redes {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-right: 50px;
+}
+
+.insta {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.face {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.número {
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 30px;
+}
+/* CONTACTANOS*/
+
+.titulo-nos {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+ }
+
+.titulo-svs {
+    font-size: 30px;
+    color: white;
+}
+
+ .servicios {
+    margin: 10px;
+    color:white;
+    font-size:18px;
+    display:inline-block;
+    padding-right: 150px;
+    border:solid black 1px;
+    border-radius:70px;
+    padding-left:55px;
+    padding-top:5px;
+    padding-bottom:5px;
+ }
+
+ .foto-nos {
+    position: absolute;
+    width: 500px;
+    margin-left: 80px;
+    top: 1050px;
+    border-radius: 40px;
+ }
+
+ .titulo-filo {
+    font-size: 30px;
+    color: white;
+ }
+
+.texto-filo {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.titulo-promo {
+    font-size: 30px;
+    color: white;
+}
+
+.texto-promo {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding-right: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.conclusión {
+    font-size: 30px;
+    color: white;
+}
+
+.texto-conclución {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding-right: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.foto-nos {
+    position: absolute;
+    top: 260px;
+}
+
+.nav-link-inicio- {
+    color: black;
+    text-decoration: none;
+    padding: 100px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.nav-link-inicio-- {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+/* UBICACION */
+
+.titulo-ubi {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.maps {
+    border-radius: 30px; 
+    width: 800px;
+    right: 30px;
+    top: 180px;
+}
+
+.horario {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 2px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
