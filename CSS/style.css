@@ -23,13 +23,22 @@ body{
     padding: 0px 40px 0px 40px;
 
 }
+
+.navbar-nav :hover{
+    padding: 15px;
+    transition: all 250ms;
+    background-color: rgb(166, 178, 3);
+}
+
 .navbar-brand {
+    cursor: pointer;
     padding-right: 20px;
     padding-top: 20px;
     font-weight: bold;
     font-size: 30px;
 }
 .nav-link-contac{
+    cursor: pointer;
     color: black;
     text-decoration: none;
     padding: 100px;
@@ -38,8 +47,12 @@ body{
     border-radius: 100px;
     margin-left: 100px;
     margin-right: 50px;
+    
+
+
 }
 .nav-link-nosotros{
+    cursor: pointer;
     color: black;
     text-decoration: none;
     background-color: yellow;
@@ -48,6 +61,7 @@ body{
     margin-left: 100px;
     margin-right: 50px;
 }
+
 .nav-link-ubi{
     color: black;
     text-decoration: none;
@@ -85,6 +99,7 @@ body{
     font-size: 30px;
     text-align: center;
     margin-top: 70px;
+    transition: all 1s;
 }
 
 .redes {
@@ -101,6 +116,11 @@ body{
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;
+    transition: all 1s;
+}
+
+.insta :hover {
+    padding: 10px;
 }
 
 .face {
@@ -109,6 +129,12 @@ body{
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;
+    transition: all 1s;
+
+}
+
+.face :hover {
+    padding: 10px;
 }
 
 .número {
@@ -116,6 +142,11 @@ body{
     background-color: yellow;
     padding: 10px;
     border-radius: 30px;
+    transition: all 1s;
+}
+
+.número :hover {
+    padding: 10px;
 }
 /* CONTACTANOS*/
 
@@ -124,11 +155,13 @@ body{
     font-size: 40px;
     text-align: center;
     margin-top: 70px;
- }
+    transition: all 1s;
+}
 
 .titulo-svs {
     font-size: 30px;
     color: white;
+    transition: all 1s;
 }
 
  .servicios {
@@ -142,6 +175,7 @@ body{
     padding-left:55px;
     padding-top:5px;
     padding-bottom:5px;
+    transition: all 1s;
  }
 
  .foto-nos {
@@ -150,11 +184,13 @@ body{
     margin-left: 80px;
     top: 1050px;
     border-radius: 40px;
+    transition: all 1s;
  }
 
  .titulo-filo {
     font-size: 30px;
     color: white;
+    transition: all 1s;
  }
 
 .texto-filo {
@@ -167,11 +203,13 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 50px;
+    transition: all 1s;
 }
 
 .titulo-promo {
     font-size: 30px;
     color: white;
+    transition: all 1s;
 }
 
 .texto-promo {
@@ -184,11 +222,13 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 50px;
+    transition: all 1s;
 }
 
 .conclusión {
     font-size: 30px;
     color: white;
+    transition: all 1s;
 }
 
 .texto-conclución {
@@ -201,11 +241,13 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 30px;
+    transition: all 1s;
 }
 
 .foto-nos {
     position: absolute;
     top: 260px;
+    transition: all 1s;
 }
 
 .nav-link-inicio- {
@@ -234,6 +276,7 @@ body{
     font-size: 40px;
     text-align: center;
     margin-top: 70px;
+    transition: all 1s;
 }
 
 .maps {
@@ -241,7 +284,10 @@ body{
     width: 800px;
     right: 30px;
     top: 180px;
+    transition: all 1s;
 }
+
+
 
 .horario {
     color: white;
@@ -251,4 +297,5 @@ body{
     display: inline-block;
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
+    transition: all 1s;
 }
